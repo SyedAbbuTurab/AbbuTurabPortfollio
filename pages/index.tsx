@@ -1,6 +1,6 @@
 import React from "react";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 export default function Home() {
   return (
@@ -29,6 +29,15 @@ export default function Home() {
           <div className="mt-6 flex gap-4">
             <button className="border px-4 py-2 rounded-full border-purple-500 text-purple-300">Resume ⬇</button>
             <button className="border px-4 py-2 rounded-full border-purple-500">Let's Connect →</button>
+          </div>
+
+          <div className="mt-6 flex gap-4 text-purple-300 text-2xl">
+            <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">
+              <FontAwesomeIcon icon={faGithub} />
+            </a>
+            <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer">
+              <FontAwesomeIcon icon={faLinkedin} />
+            </a>
           </div>
         </div>
       </section>
