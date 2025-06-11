@@ -14,9 +14,10 @@ export default function Contact() {
           </h2>
           <div className='flex justify-center mb-4 md:mb-8 text-neutral-900'>
             <form
-              action='https://getform.io/f/zazkdeqb'
+              action='https://getform.io/f/bxoyvona'
               method='post'
               className=''
+              name='name'
             >
               <div className='flex gap-1 mb-2'>
                 <input

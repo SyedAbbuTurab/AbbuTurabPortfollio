@@ -3,7 +3,7 @@ import { PiEyeThin } from 'react-icons/pi';
 import { TfiDownload } from 'react-icons/tfi';
 import { motion } from 'framer-motion';
 import AboutItem from './AboutItem';
-import aboutImg from '../assets/aboutImg.jpg';
+import aboutImg from '../assets/About_img.JPG';
 import resume from '../assets/Resume_AbbuTurab.pdf';
 import { SKILLS, RESUME_LINK } from '../constants';
 import { Link } from 'react-scroll';
@@ -34,7 +34,7 @@ export default function About() {
                 className='flex flex-col gap-2 border-b border-gray-600 pb-3'
               >
                 <h3 className='text-2xl font-light tracking-tight capitalize'>
-                  Abbu Turab
+                  Abbu Turab Syed
                 </h3>
                 <p className='text-md capitalize text-gray-500'>
                   software engineer

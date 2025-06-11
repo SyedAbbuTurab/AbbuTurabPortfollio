@@ -4,7 +4,7 @@ import { Link } from 'react-scroll';
 import { FaLinkedin, FaGithub, FaQuora, FaMediumM } from 'react-icons/fa';
 import { RiArrowDownWideLine } from 'react-icons/ri';
 
-import heroImg from '../assets/heroImg_grayBG.png';
+import trial from '../assets/trial.png';
 
 const container = (delay) => ({
   hidden: {
@@ -22,7 +22,7 @@ export default function Home() {
   return (
     <div name="home" className="h-screen w-full pt-24 flex flex-col gap-4 px-4 py-2 justify-start items-center bg-gradient-to-b from-black via-black to-gray-800 text-white">
       <div className="flex flex-col justify-center items-center w-full gap-2">
-        <motion.img variants={container(0)} initial="hidden" animate="visible" src={heroImg} alt="my profile" className="w-32 h-32 lg:w-48 lg:h-48" />
+        <motion.img variants={container(0)} initial="hidden" animate="visible" src={trial} alt="my profile" className="w-32 h-32 lg:w-48 lg:h-48" />
         <motion.h2 variants={container(0.5)} initial="hidden" animate="visible" className="text-4xl capitalize tracking-tight font-thin lg:text-6xl">
           Abbu Turab Syed
         </motion.h2>
@@ -37,7 +37,7 @@ export default function Home() {
           Software engineer
         </motion.h3>
         <motion.p variants={container(1)} initial="hidden" animate="visible" className="text-sm max-w-xl font-light tracking-tight sm:w-full md:w-3/5 md:ml-6 text-gray-400">
-          A Full Stack Developer, IL, with a strong focus on backend engineering and building scalable, high-performance systems. Experienced in designing secure APIs, cloud deployments, and real-time
+          A Full Stack Developer, with a strong focus on backend engineering and building scalable, high-performance systems. Experienced in designing secure APIs, cloud deployments, and real-time
           features. Passionate about solving complex technical challenges and delivering impactful web solutions.
         </motion.p>
       </div>
