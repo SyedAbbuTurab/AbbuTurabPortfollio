@@ -49,7 +49,7 @@ export default function Projects() {
                     <a
                       className='flex w-fit items-center gap-1 text-sm mb-2 px-2 py-1 bg-neutral-900 rounded text-gray-500'
                       href={prj.gitlink}
-                      target='_blank'
+                      target='_blank' rel="noreferrer"
                     >
                       GitHub
                       <FaExternalLinkAlt className='w-3 h-3' />
