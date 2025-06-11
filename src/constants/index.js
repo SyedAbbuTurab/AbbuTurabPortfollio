@@ -10,7 +10,6 @@ import natours from '../assets/Natours.png';
 
 const skillIconClass = 'w-6 h-6 md:w-8 md:h-8'
 
-export const RESUME_LINK_NA = 'https://drive.google.com/file/d/1Epbx82cK-Zqy68Y3ycTI5bGv0gaLUiuk/view?usp=sharing'
 export const RESUME_LINK = 'https://drive.google.com/file/d/1qlutK6HnVSomoBryWQcR9wZ3QAgwV6JE/view?usp=sharing'
 
 export const SKILLS = [
@@ -134,6 +133,24 @@ export const EXPERIENCES = [
   }
 ];
 
+export const PROJECTS = [
+  {
+    title: 'Serverless Stack API',
+    image: 'serverless.png', // Replace with actual image import or path
+    gitlink: 'https://github.com/SyedAbbuTurab/serverless-stack-api',
+    description: `A serverless backend API built with AWS Lambda and API Gateway, focusing on high scalability and minimal infrastructure management. Integrated with DynamoDB and deployed via AWS SAM for seamless infrastructure-as-code.`,
+    technologies: [
+      'Node.js',
+      'AWS Lambda',
+      'API Gateway',
+      'DynamoDB',
+      'Serverless',
+      'AWS SAM',
+      'CloudFormation',
+    ],
+  },
+  // Add more projects here if needed
+];
 
 // export const PROJECTS = [
 //   {
