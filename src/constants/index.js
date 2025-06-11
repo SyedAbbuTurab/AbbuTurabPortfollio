@@ -136,7 +136,7 @@ export const EXPERIENCES = [
 export const PROJECTS = [
   {
     title: 'Serverless Stack API',
-    image: 'serverless.png', // Replace with actual image import or path
+    image: eventique, // Replace with actual image import or path
     gitlink: 'https://github.com/SyedAbbuTurab/serverless-stack-api',
     description: `A serverless backend API built with AWS Lambda and API Gateway, focusing on high scalability and minimal infrastructure management. Integrated with DynamoDB and deployed via AWS SAM for seamless infrastructure-as-code.`,
     technologies: [
