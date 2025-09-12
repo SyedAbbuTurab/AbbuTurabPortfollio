@@ -34,7 +34,7 @@ export default function Home() {
           animate="visible"
           className="text-xl lg:text-2xl w-fit capitalize bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text tracking-tight text-transparent"
         >
-          Software engineer
+          Software Engineer Lead
         </motion.h3>
         <motion.p variants={container(1)} initial="hidden" animate="visible" className="text-sm max-w-xl font-light tracking-tight sm:w-full md:w-3/5 md:ml-6 text-gray-400">
           A Full Stack Developer, with a strong focus on backend engineering and building scalable, high-performance systems. Experienced in designing secure APIs, cloud deployments, and real-time
