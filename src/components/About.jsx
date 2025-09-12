@@ -37,7 +37,7 @@ export default function About() {
                   Abbu Turab Syed
                 </h3>
                 <p className='text-md capitalize text-gray-500'>
-                  software engineer
+                  Software Engineer Lead
                 </p>
                 <p className='text-sm capitalize text-gray-500'>
                   MS CS @ Lewis University '2024
@@ -61,7 +61,7 @@ export default function About() {
                   tagCase='uppercase'
                   value='June 21, 1996'
                 />
-                <AboutItem tag='Address' value='Chicago, Illinois' />
+                <AboutItem tag='Address' value='Jersey City, New Jersey' />
                 <AboutItem tag='Languages' value='English, Hindi, Telugu' />
               </motion.div>
               <motion.div
