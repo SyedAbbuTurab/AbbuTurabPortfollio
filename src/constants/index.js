@@ -48,7 +48,28 @@ export const SKILLS = [
 
 export const EXPERIENCES = [
   {
-    year: 'Mar 2023 - Present',
+    year: 'Sept 2025 - Present',
+    role: 'Software Engineer Lead',
+    company: 'Capgemini',
+    location: 'Jersey City, NJ',
+    description: `Designed scalable, high-performance APIs using Node.js, TypeScript, and Express. 
+    Spearheaded real-time backend services with WebSockets and GraphQL. Migrated monolithic applications to microservices, implemented Redis for caching, and enhanced API security with OAuth and JWT. Led CI/CD implementation and mentored junior developers.`,
+    technologies: [
+      'Node.js',
+      'TypeScript',
+      'Java',
+      'SpringBoot',
+      'GraphQL',
+      'REST APIs',
+      'AWS (Lambda, S3, API Gateway, EventBridge)',
+      'MongoDB',
+      'Redis',
+      'JWT',
+      'OAuth',
+      'YAML'
+    ]
+  },{
+    year: 'Mar 2023 - July 2025',
     role: 'Senior Backend Developer',
     company: 'Mastercard',
     location: 'Chicago, IL',
